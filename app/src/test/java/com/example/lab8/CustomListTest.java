@@ -33,7 +33,7 @@ public class CustomListTest {
         City city = new City("Edmonton", "AB");
         cityList.addCity(city);
         cityList.deleteCity(city);
-        assertEquals(0, cityList.hasCity(city));
+        assertEquals(0, cityList.getCount());
     }
 
 
